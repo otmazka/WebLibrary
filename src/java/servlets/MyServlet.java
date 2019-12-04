@@ -136,10 +136,29 @@ public class MyServlet extends HttpServlet {
                 history.setReader(reader);
                 history.setTakeOn(new Date());
                 historyFacade.create(history);
-                request.setAttribute("info", "Книга \""+book.getTitle()+"\"выдана читателю: "+reader.getName()+" "+reader.getLastname());
+                request.setAttribute("info", "Книга \"" + book.getTitle() + "\"выдана читателю: " + reader.getName() + " " + reader.getLastname());
                 request.getRequestDispatcher("/index.jsp")
-                .forward(request, response);
+                        .forward(request, response);
                 break;
+
+            case "/showReturnBook":
+                List<History> listHistories = historyFacade.findTookBook();
+                request.setAttribute("listHistories", listHistories);
+                request.getRequestDispatcher("/WEB-INF/showReturnBook.jsp")
+                        .forward(request, response);
+                break;
+
+            case "/returnOnBook":
+              String historyId = request.getParameter("historyId");
+              history = historyFacade.find(Long.parseLong(historyId));;
+                history.setReturnDate(new Date());
+                historyFacade.edit(history);
+                request.setAttribute("info", "Книга \"" + history.getBook().getTitle() + "\" возвращена");
+                request.getRequestDispatcher("/showReturnBook")
+                        .forward(request, response);
+
+                break;
+
         }
     }
 

@@ -22,6 +22,6 @@
         <a href="newReader">Добавить читателя</a><br>
         <a href="listReaders">Список читателей</a><br>
         <a href="showTakeOnBook">Выдать книгу</a><br>
-
+        <a href="showReturnBook">Вернуть книгу</a><br>
     </body>
 </html>
