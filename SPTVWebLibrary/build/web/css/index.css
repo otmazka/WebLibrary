@@ -1,0 +1,18 @@
+.bg-color-container{
+    background-color: goldenrod;
+}
+.border-container{
+    border: 2px solid red;
+}
+.bg-list{
+    background: blueviolet;
+}
+.list-elements{
+    font-size: 1.2em;
+    width: 100%;
+    padding: 2px;
+}
+.margin-container-center{
+    margin: 0 auto;
+}
+

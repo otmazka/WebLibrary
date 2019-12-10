@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/src/conf/MANIFEST.MF</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/index.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/NewBook.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/src/java/controller/LibraryController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/src/java/controller/SecurityController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/showBook.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/showLogin.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/css/index.css</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/WEB-INF/jspf/header.jspf</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/showTakeBookToReader.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/showListReaders.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/showListBooks.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/WEB-INF/glassfish-resources.xml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SPTVWebLibrary/web/showListTakeBooks.jsp</file>
+        </group>
+    </open-files>
+</project-private>
